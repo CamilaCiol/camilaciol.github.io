@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    - webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/redshoes.png");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-title{
+    height: 100px;
+    width: 500px;
+    color: white;
+    font-size: 50px;
+    padding-left: 40px;
+    padding-top: 300;
+    float: left;
+}
+
+.service-info{
+	height: auto;
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+@media only screen and (max-width: 900px) {
+  
+    .service-info {
+      width:100% !important;
+      float: none !important;
+      height: 300px;
+    }
+    .info-text{
+        text-align: center;
+        margin:0;
+        width:100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .margin-left{
+        margin-left: none !important;
+        margin: auto !important;
+    }
+    .service-image{
+        margin-left: none !important;
+        margin: auto !important;
+
+    }
+    .wrapper3, .wrapper2{
+        height: 0px !important;
+    }
+    .wrapper {
+        height: 1500px !important;
+    }
+  }
+
+.service-image{
+    display: block;
+    
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #ffffff;
+    box-shadow: 10px 10px 20px 10px rgba(20,10,10,0.30);
+}
+
+.space{
+    height: 110px;
+}
+
+.info-text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 70%;
+}
+.remove-margin-left{
+    margin-left: 0;
+}
+
+.margin-left{
+    margin-left: 20%;
+
+}
+
+.wrapper, .wrapper3{
+    width: 100%;
+    height: 900px;
+    
+    
+}
+
+.cinza{
+    height: 300px;
+    width: 100%;
+    background-color:#f1f1f1f1;
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.centering-button{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.wrapper2{
+    width: 100%;
+    height: 300px;
+}

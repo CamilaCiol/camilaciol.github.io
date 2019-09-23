@@ -1,0 +1,9 @@
+.bollet-points::before{
+    list-style: display !important;
+    content: "\2022";
+ 
+  font-weight: bold;
+  display: inline-block; 
+  
+}
+
